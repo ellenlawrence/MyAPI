@@ -21,5 +21,6 @@ class Multi(Resource):
 api.add_resource(HelloWorld, '/')
 api.add_resource(Multi, '/multi/<int:num>')
 
+
 if __name__ == '__main__':
     app.run(debug=True)
